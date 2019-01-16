@@ -1,6 +1,7 @@
 // takes input from console in the form of a sentence
 // even-numbered characters are capitalized, 
 // and most importantly (and annoyingly) ignoring spaces
+// used for practice with Node REPL
 
 const args = process.argv.slice(2);
 const string = args[0];
@@ -65,6 +66,3 @@ for (let i = 0; i < (capitalizedString.length + (arrayOfWords.length - 1)); i +=
 }
 
 console.log(finalString);
-
-
-
