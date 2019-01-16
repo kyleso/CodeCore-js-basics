@@ -18,3 +18,5 @@ function printMulti(array) {
         }
     }
 }
+
+*/
