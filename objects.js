@@ -1,7 +1,5 @@
 // Objects
 
-// Objects
-
 // Creating an object
 
 const keyName = "title";
@@ -23,3 +21,39 @@ const daeny = {
 };
 
 console.log(daeny);
+
+// Reading keys of an object
+
+daeny.firstName; // 'Daenerys'
+daeny.titles; // [ 'Queen of Mereen', 'Khaleesi of the Great Grass Sea' ]
+daeny["lastName"]; // 'Targaryen'
+daeny["last" + "Name"]; // 'Targaryen'
+
+// Write key-value pairs to an object
+
+// You can create new key-value on a object by assigning
+// a value to a key using the dot notation:
+daeny.royalHouse = "House Targaryen"; // 'House Targaryen'
+
+// As shown below, the "royalHouse" key-pair was added.
+daeny;
+// { firstName: 'Daenerys',
+//   lastName: 'Targaryen',
+//   titles: [ 'Queen of Mereen', 'Khaleesi of the Great Grass Sea' ],
+//   royalHouse: 'House Targaryen' }
+
+// You can also add new keys using the bracket notation. This allows
+// you to create keys that have special characters and allows you
+// to use expression to create the key (e.g. variables, function calls,
+// additions, etc) as long as they evaluate to a string.
+daeny["Played by"] = "Emilia Clarke"; // 'Emilia Clarke'
+daeny;
+// { firstName: 'Daenerys',
+//   lastName: 'Targaryen',
+//   titles: [ 'Queen of Mereen', 'Khaleesi of the Great Grass Sea' ],
+//   royalHouse: 'House Targaryen',
+//   'Played by': 'Emilia Clarke' }
+
+// To read key containing special characters, you must use
+// square brackets.
+daeny["Played by"]; // 'Emilia Clarke'
