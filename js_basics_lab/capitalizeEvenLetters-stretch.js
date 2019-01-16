@@ -8,7 +8,7 @@ const string = args[0];
 
 // create array of words in string without spaces
 const arrayOfWords = string.split(" ");
-let arrayOfWordLength = [];
+const arrayOfWordLength = [];
 // console.log(arrayOfWords)
 
 // determine length of each word
@@ -48,7 +48,7 @@ const totalChars = arrayOfWordLength.reduce((a, b) => a + b, 0) + numOfSpaces;
 let spaceCounter = 0;
 let charCounter = 0;
 // create mutable array of words while keeping old array immutable
-let arr = [...arrayOfWordLength];
+const arr = [...arrayOfWordLength];
 // mutable sum of characters as array of words gets shifted
 let sum = arr.reduce((a, b) => a + b, 0) + numOfSpaces; 
 
