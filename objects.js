@@ -1,5 +1,7 @@
 // Objects
 
+// Objects
+
 // Creating an object
 
 const keyName = "title";
@@ -16,3 +18,8 @@ const daeny = {
   // To get the key from expression, surround the expression
   // with []
     "Queen of Mereen",
+    "Khaleesi of the Great Grass Sea"
+  ]
+};
+
+console.log(daeny);
