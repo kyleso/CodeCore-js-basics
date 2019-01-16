@@ -66,9 +66,5 @@ for (let i = 0; i < (capitalizedString.length + (arrayOfWords.length - 1)); i +=
 
 console.log(finalString);
 
-// formulae for if condition
-// charCounter = arrayOfWordLength[spaceCounter] = 0  == 5   + 0 = totalChars 25 - sum 25 + spaceCounter 0;
-// charCounter = arrayOfWordLength[spaceCounter] = 1  == 6   + 6 = totalChars 25 - sum 20 + spaceCounter 1;
-// charCounter = arrayOfWordLength[spaceCounter] = 2  == 5   + 13 = totalChars 25 - sum 14 + spaceCounter 2;
-// charCounter = arrayOfWordLength[spaceCounter] = 3  == 6   + 19 = totalChars 25 - sum 9 + spaceCounter 3;
+
 
