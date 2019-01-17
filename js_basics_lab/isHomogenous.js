@@ -1,11 +1,13 @@
 function isHomogenous(arr) {
-    baseType = typeof arr[0];
-    for (let i in arr) {
-        if (typeof arr[i] !== baseType) {
-            return false
-        } 
+
+  const baseType = typeof arr[0];
+
+  for (let i in arr) {
+    if (typeof arr[i] !== baseType) {
+      return false;
     }
-    return true;
+  }
+  return true;
 }
 
 console.log(isHomogenous([1,2,3])); // returns true
