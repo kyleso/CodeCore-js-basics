@@ -8,10 +8,10 @@ const string = args[0];
 
 // create array of words in string without spaces
 const arrayOfWords = string.split(" ");
-const arrayOfWordLength = [];
 // console.log(arrayOfWords)
 
 // determine length of each word
+const arrayOfWordLength = [];
 for (let i = 0; i < arrayOfWords.length; i += 1) {
     let x = arrayOfWords[i].length
     arrayOfWordLength.push(x)
